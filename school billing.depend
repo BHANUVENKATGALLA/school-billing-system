@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1643007250 source:e:\school billing\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+
