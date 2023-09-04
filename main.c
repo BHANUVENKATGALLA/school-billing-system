@@ -46,7 +46,6 @@ void main(void)
     printf("\t|    *****************************************           |\n");
     printf("\t|________________________________________________________|\n");
     printf("\n\tPLEASE ENTER ANY KEY TO CONTINUE");
-
     fflush(stdin);
     getch();
     system("cls");
@@ -67,8 +66,7 @@ void start()
     printf("\n\t\tAccount Type Choice  ");
     fflush(stdin);
     scanf("%d",&m);
-    switch (m)
-    {
+    switch (m){
     case 3:
         exits();
     case 1:
@@ -149,7 +147,6 @@ void start()
             system("Pause");
             start();
         }
-
         }
     }
     default :
